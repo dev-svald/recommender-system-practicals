@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checking & linting
+.mypy_cache/
+.ruff_cache/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large dataset files and archives
+ml-32m/
+ml-1m/
+ml-100k/
+data/*
+!data/.gitkeep
+*.zip
+*.tar.gz
+*.tgz
+*.csv
+*.tsv
+*.parquet
+
+# Generated model weights and plots
+*.pkl
+*.pickle
+*.h5
+*.npy
+*.npz
+hyperparameter_heatmaps.pdf
+hyperparameter_comparison.pdf
+best_model_training.pdf
+staged_search.pdf
+staged_search_analysis.pdf
+effect_of_K.pdf
+effect_of_tau.pdf
+effect_of_lambda_gamma.pdf
+polarization_analysis.pdf
+embedding_space_2d.pdf
+mf_model.pkl
